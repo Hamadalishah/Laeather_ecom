@@ -1,0 +1,1 @@
+export const supabaseKey = 'https://otnwtjkdpazeirsggltw.supabase.co/storage/v1/object/public/NewImages/'
