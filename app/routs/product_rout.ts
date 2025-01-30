@@ -19,7 +19,7 @@ export interface Product {
   
   export const fetchProducts = async (): Promise<Product[]> => {
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/product`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/products`, {
         cache: 'no-store',
       });
   
